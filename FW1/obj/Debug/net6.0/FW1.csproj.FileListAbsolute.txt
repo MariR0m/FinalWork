@@ -1,0 +1,15 @@
+C:\Users\rmu\Desktop\FinalWork\FW1\bin\Debug\net6.0\FW1.exe
+C:\Users\rmu\Desktop\FinalWork\FW1\bin\Debug\net6.0\FW1.deps.json
+C:\Users\rmu\Desktop\FinalWork\FW1\bin\Debug\net6.0\FW1.runtimeconfig.json
+C:\Users\rmu\Desktop\FinalWork\FW1\bin\Debug\net6.0\FW1.dll
+C:\Users\rmu\Desktop\FinalWork\FW1\bin\Debug\net6.0\FW1.pdb
+C:\Users\rmu\Desktop\FinalWork\FW1\obj\Debug\net6.0\FW1.csproj.AssemblyReference.cache
+C:\Users\rmu\Desktop\FinalWork\FW1\obj\Debug\net6.0\FW1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rmu\Desktop\FinalWork\FW1\obj\Debug\net6.0\FW1.AssemblyInfoInputs.cache
+C:\Users\rmu\Desktop\FinalWork\FW1\obj\Debug\net6.0\FW1.AssemblyInfo.cs
+C:\Users\rmu\Desktop\FinalWork\FW1\obj\Debug\net6.0\FW1.csproj.CoreCompileInputs.cache
+C:\Users\rmu\Desktop\FinalWork\FW1\obj\Debug\net6.0\FW1.dll
+C:\Users\rmu\Desktop\FinalWork\FW1\obj\Debug\net6.0\refint\FW1.dll
+C:\Users\rmu\Desktop\FinalWork\FW1\obj\Debug\net6.0\FW1.pdb
+C:\Users\rmu\Desktop\FinalWork\FW1\obj\Debug\net6.0\FW1.genruntimeconfig.cache
+C:\Users\rmu\Desktop\FinalWork\FW1\obj\Debug\net6.0\ref\FW1.dll
