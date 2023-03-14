@@ -8,47 +8,50 @@
 // ["Впзы1а", "ОептагК", "Кагап"] -> []
 
 
-string[] ArrayFilling (string[] Array)
+string[] ArrayFilling(string[] Array)
 {
-for (int i=0; i<Array.Length; i++)
-{
-    System.Console.WriteLine("Введите элемент: ", i);
-    Array[i] = Console.ReadLine();
-}
-return Array;
-}
-
-void PrintArray(string[] array)
-{
-    System.Console.WriteLine("[" + string.Join(", ", array) + "]");
+    for (int i = 0; i < Array.Length; i++)
+    {
+        System.Console.WriteLine("Введите элемент: ", i);
+        Array[i] = Console.ReadLine();
+    }
+    return Array;
 }
 
-string[] ElementSearch (string[] Array, int count)
+void PrintArray(string[] Array)
 {
-string[] Array2 = new string[count];
- int j=0;
- for (int i=0; i<Array.Length; i++)
- {
-if (Array[i].Length<4)
-{
-Array2[j] = Array[i];
- j++;
-}
- }
- 
- return Array2.Take(j).ToArray();
+    System.Console.WriteLine("[" + string.Join(", ", Array) + "]");
 }
 
-int count;
+string[] ElementSearch(string[] Array, int Count)
+{
+    string[] NewArray = new string[Count];
+    int j = 0;
+    for (int i = 0; i < Array.Length; i++)
+    {
+        if (Array[i].Length < 4)
+        {
+            NewArray[j] = Array[i];
+            j++;
+        }
+    }
 
-System.Console.WriteLine("Количество элементов: ");
-count = Int32.Parse(Console.ReadLine());
+    return NewArray.Take(j).ToArray();
+}
 
-string[] Array = new string[count];
-ArrayFilling (Array);
+int Count;
+
+System.Console.WriteLine("Введите количество элементов: ");
+Count = Int32.Parse(Console.ReadLine());
+
+string[] Array = new string[Count];
+
+ArrayFilling(Array);
 System.Console.WriteLine();
+
 System.Console.WriteLine("Полученный массив: ");
 PrintArray(Array);
 System.Console.WriteLine();
+
 System.Console.WriteLine("Элементы массива длинна которых меньше либо равна 3 символа: ");
-PrintArray(ElementSearch(Array, count));
+PrintArray(ElementSearch(Array, Count));
